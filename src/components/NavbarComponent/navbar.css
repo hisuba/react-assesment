@@ -1,0 +1,71 @@
+
+.icon {
+  color: rgb(154, 143, 143);
+  margin-top: 16px;
+}
+
+.logo {
+    color: #cf2d2d;
+    margin: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.search {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.center {
+    margin-right: 14px;
+}
+.right{
+    margin-left:70px ;
+}
+.navbar {
+    width: 1240px;
+    margin-left: 80px;
+}
+
+
+/* Default styles */
+.nav-items {
+  flex-wrap: wrap; /* Allow items to wrap */
+}
+
+/* Media query for small screens */
+@media (max-width: 767px) {
+  .nav-items {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .center {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .center .btn {
+    margin: 5px 0; /* Adjust margin */
+  }
+
+  .right {
+    margin-top: 10px; /* Add space between center and right items */
+  }
+}
+
+/* Media query for medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .center .btn {
+    margin: 0 10px; /* Adjust margin */
+  }
+}
+
+/* Media query for large screens */
+@media (min-width: 992px) {
+  .center {
+    margin-left: auto; /* Push center items to the right */
+  }
+}
+
+

@@ -1,0 +1,45 @@
+.card{
+    background: url('../../assets/Rectangle7.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 380px;
+}
+.container{
+    width: 1215px;
+    position: relative;
+    bottom: 111px;
+}
+
+/* Mobile media query for cards */
+@media (max-width: 767px) {
+    .card {
+      /* Your mobile styles for cards */
+      width: 100%; /* Example: Make cards full width */
+      margin-bottom: 20px; /* Example: Add margin */
+    }
+    
+    .card-body {
+      /* Adjust card body styles for mobile */
+      padding: 10px; /* Example: Reduce padding */
+    }
+  
+    .card-title {
+      /* Adjust card title styles for mobile */
+      font-size: 18px; /* Example: Increase font size */
+    }
+  
+    .card-text {
+      /* Adjust card text styles for mobile */
+      font-size: 14px; /* Example: Reduce font size */
+    }
+  }
+  
+  /* Mobile media query for banner */
+  @media (max-width: 767px) {
+    .banner {
+      /* Your mobile styles for banner */
+      width: 100%; /* Example: Make banner full width */
+      height: auto; /* Example: Adjust height as needed */
+    }
+  }
+  

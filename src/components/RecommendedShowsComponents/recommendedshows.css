@@ -1,0 +1,69 @@
+.Swiper{
+  background: url('../../assets/Rectangle2.svg');
+  background-position: center;
+}
+  
+.shows-container{
+  position: relative;
+  margin-left: 170px;
+  bottom: 150px;
+  width: 1200px;
+ 
+ 
+}
+
+.shows-container h6{
+    color: #fff;
+    margin-right:810px;
+}
+
+.bi-arrow-right{
+    color: #fff;
+}
+  
+  .swiper {
+    width: 60%;
+    height: 300px;
+  }
+ 
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+ 
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.swiper-slide img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
+
+ .mySwiper{
+
+width: 950px;
+height: 350px;
+
+ }
+ .slide-text {
+  margin-top: 280px;
+  color: white;
+ }
+
+ 
+ .slide-text span{
+  font-size: 7px;
+  font-weight: 600;
+ 
+ }
+
+ .bi-geo-alt-fill{
+  font-size: 11px;
+ }
